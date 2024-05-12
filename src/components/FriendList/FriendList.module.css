@@ -1,0 +1,11 @@
+.listCard {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.friendCard {
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}

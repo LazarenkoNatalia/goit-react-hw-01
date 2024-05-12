@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: 70px;
+}
+
+.frname {
+    color: black;
+    margin: 0;
+}
+
+.online {
+    color: green;
+    margin: 0;
+}
+
+.offline {
+    color: red;
+    margin: 0;
+}

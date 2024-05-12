@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.block{
+    display: block;
+    width: 495px;
+   
+}
+
+.stroka {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background: black;
+    color: white;
+
+    border: 1px solid gray;
+    width: 165px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableStroka {
+    color: black;
+
+    border: 1px solid gray;
+    width: 165px;
+    height: 35px;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.rawinfo {
+    background: white;
+}
+
+.rawinfo:nth-child(even) {
+    background-color: darkgray;
+}
