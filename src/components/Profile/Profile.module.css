@@ -24,24 +24,24 @@
      width: 240px;
  }
 
- .textname {
+ .textName {
      font-size: 48px;
      color: black;
  }
 
- .textgray {
+ .textGray {
      color: gray;
      font-size: 40px;
  }
 
- .liststats {
+ .listStats {
      margin: 0;
      padding: 0;
      display: flex;
      list-style-type: none;
  }
 
- .elemstats {
+ .elemStats {
      width: 183px;
      height: 110px;
      border-right: 3px solid gray;
@@ -59,6 +59,6 @@
      border-right: none;
  }
 
- .elemstatspan {
+ .elemStatSpan {
      font-size: 30px;
  }

@@ -6,16 +6,13 @@ export default function FriendListItem({
     isOnline
 }) {
     let status = isOnline ? stylefrcard.online : stylefrcard.offline;
-    console.log(status)
     return (
-
         <>
             <div className={stylefrcard.card}>
                 <img className={stylefrcard.avatar } src={avatar} alt={name} width="48" />
                 <p className={stylefrcard.frname}>{name}</p>
                 <p className={status}> {isOnline ? 'online' : 'offline'}</p>
             </div>
-
         </>
     )
 }
